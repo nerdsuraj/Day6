@@ -10,7 +10,8 @@ namespace Day6
     {
         static void Main(string[] args)
         {
-            Fibonum.fibonumber();
+            //Fibonum.fibonumber();
+            PerfectNum.perfectnumbermethod();
             Console.ReadLine();
         }
     }
