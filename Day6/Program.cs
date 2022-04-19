@@ -12,7 +12,8 @@ namespace Day6
         {
             //Fibonum.fibonumber();
             //PerfectNum.perfectnumbermethod();
-            primeNum.primenumbermethod();
+            //primeNum.primenumbermethod();
+            ReverseNum.reversenumbermethod();
             Console.ReadLine();
         }
     }
