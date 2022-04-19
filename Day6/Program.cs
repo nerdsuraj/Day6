@@ -11,7 +11,8 @@ namespace Day6
         static void Main(string[] args)
         {
             //Fibonum.fibonumber();
-            PerfectNum.perfectnumbermethod();
+            //PerfectNum.perfectnumbermethod();
+            primeNum.primenumbermethod();
             Console.ReadLine();
         }
     }

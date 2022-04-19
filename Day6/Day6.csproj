@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Fibonum.cs" />
     <Compile Include="PerfectNum.cs" />
+    <Compile Include="primeNum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
