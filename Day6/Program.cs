@@ -11,10 +11,22 @@ namespace Day6
         static void Main(string[] args)
         {
             //Fibonum.fibonumber();
+
             //PerfectNum.perfectnumbermethod();
+
             //primeNum.primenumbermethod();
-            ReverseNum.reversenumbermethod();
-            Console.ReadLine();
+
+            //ReverseNum.reversenumbermethod();
+
+            
+            Stopwatch obj5 = new Stopwatch();
+            obj5.stopwatchmethod();
+
+
+
+
+
+
         }
     }
 }
