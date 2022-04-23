@@ -50,6 +50,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseNum.cs" />
+    <Compile Include="SqaureRoot.cs" />
     <Compile Include="Stopwatch.cs" />
     <Compile Include="TempClass.cs" />
     <Compile Include="VendorMachine.cs" />
