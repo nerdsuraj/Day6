@@ -32,12 +32,26 @@ namespace Day6
             //Console.WriteLine("Minimum Notes required is " + obj6.minNotes(Notes, m, V));
 
 
-            Console.WriteLine("Enter 0 for CELCIUS to FAHRENHEIT CONVERSION & Enter 1 for FAHRENHEIT to CELCIUS CONVERSION ");
-            int Num4 = Convert.ToInt32(Console.ReadLine());
-            TempClass obj8 = new TempClass();
-            obj8.TempConv(Num4);
-           
+            //Console.WriteLine("Enter 0 for CELCIUS to FAHRENHEIT CONVERSION & Enter 1 for FAHRENHEIT to CELCIUS CONVERSION ");
+            //int Num4 = Convert.ToInt32(Console.ReadLine());
+            //TempClass obj8 = new TempClass();
+            //obj8.TempConv(Num4);
 
+            Console.WriteLine("Enter the Day Number");
+
+            int D = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter the month in number");
+
+            int M = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter the Year");
+
+            int Y = Convert.ToInt32(Console.ReadLine());
+
+            DayOfWeek obj7 = new DayOfWeek();
+
+            obj7.dayOfWeek(D, M, Y);
 
             Console.ReadLine();
 
