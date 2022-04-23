@@ -75,9 +75,13 @@ namespace Day6
                 SqaureRoot obj9 = new SqaureRoot();
                 obj9.Sqrt(Count3, Num5);          */
 
+            //  Console.WriteLine("for binary decimal............................");
 
+               Console.WriteLine("Enter any number for decimal to Binary conversion");
+               int decimalNumber = Convert.ToInt32(Console.ReadLine());
+               BinaryDecimal.toBinary(decimalNumber);     
 
-            Console.ReadLine();
+              Console.ReadLine();
 
 
 

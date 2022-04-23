@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinaryDecimal.cs" />
     <Compile Include="DayOfWeek.cs" />
     <Compile Include="Fibonum.cs" />
     <Compile Include="PerfectNum.cs" />
