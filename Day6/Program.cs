@@ -18,10 +18,11 @@ namespace Day6
 
             //ReverseNum.reversenumbermethod();
 
-            
-            Stopwatch obj5 = new Stopwatch();
+
+            watchclass obj5 = new watchclass();
             obj5.stopwatchmethod();
 
+            Console.ReadLine();
 
 
 

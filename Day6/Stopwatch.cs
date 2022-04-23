@@ -7,18 +7,22 @@ using System.Diagnostics;
 
 namespace Day6
 {
-    internal class Stopwatch
+    internal class watchclass
     {
         
-        public static void stopwatchmethod()
+        public  void stopwatchmethod()
         {
 
             Console.WriteLine("Hit any key to start the timer");
+
             Console.ReadKey();
+
             Console.WriteLine();
+
             var watch = Stopwatch.StartNew();
 
             Console.Write("Press <Enter> to exit stopwatch");
+
             while (Console.ReadKey().Key != ConsoleKey.Enter)
             {
                 watch.Stop();
